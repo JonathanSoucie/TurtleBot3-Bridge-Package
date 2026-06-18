@@ -1,0 +1,6 @@
+# DEPRECATED - kept only because this build environment can't delete it.
+# The canonical bridge config is bridge_params.yaml (matches the v3 the
+# professor distributed). Do not reference this file from any launch.
+tb3_bridge_node:
+  ros__parameters:
+    _deprecated: true

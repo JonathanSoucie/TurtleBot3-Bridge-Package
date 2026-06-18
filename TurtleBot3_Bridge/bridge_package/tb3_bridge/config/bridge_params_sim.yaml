@@ -1,0 +1,6 @@
+# DEPRECATED - the bridge is no longer used in the Gazebo sim path.
+# Sim now uses gazebo_only.launch.py, which only starts Gazebo + rosbridge.
+# Do not reference this file from any launch.
+tb3_bridge_node:
+  ros__parameters:
+    _deprecated: true

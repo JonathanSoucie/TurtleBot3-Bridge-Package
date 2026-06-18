@@ -1,0 +1,12 @@
+tb3_bridge_node:
+  ros__parameters:
+    student_cmd_vel_topic: "/student/cmd_vel"
+    robot_cmd_vel_topic:   "/cmd_vel"
+    robot_scan_topic:      "/scan"
+    student_scan_topic:    "/student/scan"
+    robot_odom_topic:      "/odom"
+    student_odom_topic:    "/student/odom"
+    watchdog_timeout_s:     0.5
+    watchdog_check_rate_hz: 20.0
+    diagnostics_rate_hz:    1.0
+    forwarding_enabled:     true
